@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+#news .box{
+    width: 400px;
+    height: 250px;
+    background-color: greenyellow;
+    margin: 40px;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+#news .box:hover{
+    width: 400px;
+    height: 250px;
+    background-color: greenyellow;
+    margin: 40px;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: rgba(23,3,123,0.) 0px 5px 15px;
+}
+
+#news{
+    display: flex;
+    background-color: aquamarine;
+}
+
+#news .box .btn{
+    float: right;
+    background-color: magenta;
+    color: white;
+    border: 1px solid magenta;
+    width: 100px;
+    height: 26px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+#news .box .btn:hover{
+    float: right;
+    background-color: white;
+    color: magenta;
+    border: 1px solid magenta;
+    width: 100px;
+    height: 26px;
+}
+
+/* 
+.box p{
+    background-color: red;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p{
+    background-color: red;
+    height: 40px;
+    text-align: center;
+}
+
+.test{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.line{
+    height: 30px;
+    width: 2px;
+    background-color: black;
+    opacity: 0.5;
+} */

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(237,237,237);
+}
+
+.all {
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left {
+    text-align: center;
+    width: 200px;
+    height: 270px;
+    background: linear-gradient(to right,darkblue,rgb(40, 124, 152));
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.left .image img{
+    width: 145px;
+    height: 145px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.box .left p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.box .left h2{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 300px;
+    height: 270px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.right .header{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.right .info{
+    display: flex;
+    justify-content: center;
+}
+
+.info h3{
+    font-size: 18px;
+}
+
+.info p{
+    font-size: 15px;
+    color: rgb(136,135,148);
+}
+
+.info .number{
+    margin-left: 20px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.links ul li{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(to right,darkblue,rgb(40, 124, 152));
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.links ul li a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.face{
+    width: 12px;
+    height: 20px;
+    margin-left: 1px;
+}
+.twit{
+    margin-left: 1px;
+    width: 20px;
+    height: 20px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+}
+.tube{
+    margin-top: 3px;
+    width: 22px;
+    height: 15px;
+}
